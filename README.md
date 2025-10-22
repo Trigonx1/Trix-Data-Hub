@@ -1,6 +1,7 @@
 # Mobile Phone Sales Analysis
 
-![Slide1](C:\Users\USER\Downloads\Online shopping icon on smart phone for global concept _ Premium Photo.jpg")
+![Slide1](![Online shopping icon on smart phone for global concept _ Premium Photo](https://github.com/user-attachments/assets/726805c8-2ab0-4570-a834-3f7c259f4689)
+)
 
 ##  Introduction
 This is a Power BI project on sales analysis of an hypothetic Supermarket, Haut Super market for 2 consecutive years (2013 and 2014). The project is to clean, analyze and draw insights in order to answer some critical question and help stake holders of Haut make informed decisions.
