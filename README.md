@@ -9,6 +9,13 @@ This Power BI project analyzes mobile phone sales performance across multiple co
 The project’s goal is to analyze sales trends, profitability, and market share distribution to uncover key insights that can guide strategic decisions on product positioning, pricing, and distribution partnerships.
 
 The analysis explores sales patterns, brand performance, and profit trends over time to determine:
+Which markets are most profitable?
+
+Which brands dominate sales?
+
+What operators and distributors drive revenue growth?
+
+How do average unit prices vary across partners?
 
 ## Data Source:
 The data used in this project is a modified microsoft dataset known as Financial Samples;  
