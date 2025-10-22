@@ -4,8 +4,11 @@
 
 
 ##  Introduction
-This is a Power BI project on sales analysis of an hypothetic Supermarket, Haut Super market for 2 consecutive years (2013 and 2014). The project is to clean, analyze and draw insights in order to answer some critical question and help stake holders of Haut make informed decisions.
+This Power BI project analyzes mobile phone sales performance across multiple countries, brands, and distributors between 2018 and 2021.
 
+The project’s goal is to analyze sales trends, profitability, and market share distribution to uncover key insights that can guide strategic decisions on product positioning, pricing, and distribution partnerships.
+
+The analysis explores sales patterns, brand performance, and profit trends over time to determine:
 
 ## Data Source:
 The data used in this project is a modified microsoft dataset known as Financial Samples;  
