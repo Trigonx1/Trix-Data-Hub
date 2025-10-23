@@ -9,18 +9,18 @@ This Power BI project analyzes mobile phone sales performance across multiple co
 The project’s goal is to analyze sales trends, profitability, and market share distribution to uncover key insights that can guide strategic decisions on product positioning, pricing, and distribution partnerships.
 
 The analysis explores sales patterns, brand performance, and profit trends over time to determine:
-Which markets are most profitable?
-
-Which brands dominate sales?
-
-What operators and distributors drive revenue growth?
-
-How do average unit prices vary across partners?
+* Which markets are most profitable?
+  
+* Which brands dominate sales?
+  
+* What operators and distributors drive revenue growth?
+  
+* How do average unit prices vary across partners?
 
 ## Data Source:
-The data used in this project is a modified microsoft dataset known as Financial Samples;  
-* Microsoft Financial Sample Data [DownloadMicrosoftData](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download)
-* Modified Dataset used in this Project [DownloadModifiedDataset](https://docs.google.com/spreadsheets/u/2/d/1xkWC6Jlk_YZECHbpUtoc8AEiPb9jfcld/edit?usp=drive_web&ouid=114068862415751566917&rtpof=true)
+The dataset used for this project represents mobile phone sales transactions collected from different regions and business partners. 
+* Mobile phone sales transactions Sample Data [C:\Users\USER\Downloads\Business Intel Phone Sales..xlsx)
+* Modified Dataset used in this Project [DownloadModifiedDataset](C:\Users\USER\Downloads\Business Intel Phone Sales..xlsx)
 
 ## Problem Statement
 This project is aimed at improving business performance of Haut supermarket and hence, answer the following questions;
