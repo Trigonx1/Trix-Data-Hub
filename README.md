@@ -19,42 +19,59 @@ The analysis explores sales patterns, brand performance, and profit trends over 
 
 ## Data Source:
 The dataset used for this project represents mobile phone sales transactions collected from different regions and business partners. 
-* Mobile phone sales transactions Sample Data [C:\Users\USER\Downloads\Business Intel Phone Sales..xlsx)
+* Mobile phone sales transactions Sample Data [https://github.com/C:\Users\USER\Downloads\Business Intel Phone Sales..xlsx)
 * Modified Dataset used in this Project [DownloadModifiedDataset](C:\Users\USER\Downloads\Business Intel Phone Sales..xlsx)
 
 ## Problem Statement
-This project is aimed at improving business performance of Haut supermarket and hence, answer the following questions;
-1. What is the monthly trend of Profit?
-2. What is the ratio of profit of the years under review?
-3. What is the profit ratio on quarterly basis?
-4. Which product category is the most and least profitable?
-5. Where does most sales comes from in terms of region?
+The analysis aims to address the following key business questions;
+1. Which countries generate the highest total sales and profit?
+2. How do monthly sales trends change over the years?
+3. What are the top-performing brands and distributors?
+4. Which operators contribute most significantly to sales by brand?
+5. ow does the average unit price differ by distributor?
 6. Does discount has an effect on Sales?
-7. What is the performance of the Africa market relative to other continent?
-8. Which country is most profitable?
+7. What growth patterns exist between 2018–2021?
+8. Which markets should be targeted for strategic expansion?
 
 ## Power BI and Analytics Technical Skills:
 + Project Planning and Documentation
 + Data Gathering
-+ Power Query
-+ Data Modelling
++ Data Cleaning & Transformation (Power Query)
++ Data Modelling & Relationship Management (Star Schema Design)
 + Report Design
-+ Data Visualization
-+ Data Analysis Expression (DAX)
++ Data Visualization (Cards, Bars, Lines, Matrix, and KPIs)
++ Advanced DAX Calculations
 + Page Navigation and Button
 + Business and Analytics Reporting
 + Performance Optimization
 + Deployment and Power BI Service
 + Scalability
++ Storytelling through Data Visualization
 + Feedback and Continuous Improvement
   
 ## Data Modelling
-To optimize the performance of the data model, a calendar table was created using the DAX function. The data model follows a star schema with one fact table and three dimension tables. The dimension tables have PRIMARY KEYS that connect to the corresponding FOREIGN KEYS in the fact table, forming a one-to-many relationship between each dimension table and the fact table. The diagram below shows the data model.  
-<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Data%20Modelling.PNG" width=50% height=50%>
+The data model follows a star schema, consisting of:
+
+* 1 Fact Table: containing sales transactions, profit, and quantity data.
+
+* 4 Dimension Tables: Country, Brand, Operator, and Distributor.
+
+## A Calendar Table  was also created using DAX for time intelligence functions (e.g., monthly and yearly comparisons).
+Relationships were defined using primary and foreign keys to ensure optimal model performance.
+<img src="https://github.com/<img width="1390" height="652" alt="Screenshot 2025-10-23 011925" src="https://github.com/user-attachments/assets/6bcf7c58-8ec3-40dc-9d1e-d34b08a04ad9" />
 
 ## Report Design and Visualization
-The Report Canvas was designed in Power Point and imported to PowerBI as canvas background. Here is a sample of the slide in Power Point   
-<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Slide2.PNG" width=50% height=50%>  
+The dashboard was designed with a deep blue and white professional theme for readability and corporate appeal.
+
+* The layout background was designed in PowerPoint, imported into Power BI as a canvas background.
+
+* Two report pages were developed:
+
+1 Summary Page – for overall business performance.
+
+2  Breakdown Page – for detailed analysis by brand, operator, and distributor 
+<img src=<img width="1203" height="663" alt="Screenshot 2025-10-23 012808" src="https://github.com/user-attachments/assets/9e2f0cbc-3b70-4d4e-b6a8-5e4cc2beebc4" />
+  
 5 pages were created; Home, Consolidated, Stationery, Cosmetics and Electronics. 
 _Home_ page is the landing page while _Consolidated_ has the general report without filter while other pages has filtered reports accroding to their page name.
 On each page, the new card visual is used to hold Total Sales, Gross Sales and Profit, Line Chart is used for the series analysis while a column and bar chart are adopted for the Continental and Country analysis respectively. The last image is the button for page navigation. 
